@@ -13,5 +13,15 @@ module FormsLab
       erb :"pirates/new"
     end
 
+    get "/pirates" do
+      @pirate = Pirate.new(params[:pirate])
+
+      params[:student][:ships].each do |details|
+        Ship.new(ship)
+      end
+
+      erb :show
+    end
+
   end
 end
