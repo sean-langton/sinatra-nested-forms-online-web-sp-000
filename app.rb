@@ -20,7 +20,7 @@ module FormsLab
         Ship.new(ship)
       end
 
-      erb :show
+      erb :"pirates/show"
     end
 
   end
