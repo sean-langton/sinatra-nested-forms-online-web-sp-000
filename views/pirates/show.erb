@@ -3,7 +3,7 @@
 <h3><%= @pirate.weight %></h3><br>
 <h3><%= @pirate.height %></h3><br>
 
-<% Ships.all.each do |ship| %>
+<% Ship.all.each do |ship| %>
   <h4> Ship Name: <%= ship.name %></h4><br>
   <h4> Ship Type: <%= ship.type %></h4><br>
   <h4> Ship Booty: <%= ship.booty %></h4><br>
